@@ -1,0 +1,26 @@
+ availableBooks: [
+            {
+                name: "Na Drini Cuprija",
+                author: "Ivo Andric",
+                info: "Roman written by Serbian writter",
+                year: 1920,
+                pages: 1000,
+                text: "Lorem ipsum dolor 1..."
+            },
+            {
+                name: "Animal farm",
+                author: "Mike Johnatan",
+                info: "Roman written by some writter",
+                year: 200,
+                pages: 500,
+                text: "Lorem ipsum dolor 2..."
+            },
+            {
+                name: "Little prince",
+                author: "Mark Twen",
+                info: "Roman for childrens and adults",
+                year: 1980,
+                pages: 550,
+                text: "Lorem ipsum dolor 3..."
+            }
+        ],

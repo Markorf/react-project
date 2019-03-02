@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.custom-modal {
+    background: rgba(0, 0, 0, 0.562);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    transition: all .5s ease;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.custom-modal p {
+  font-size: 2rem;
+}
+.custom-modal a {
+  display: block;
+}
+.bookImage {
+  height: 200px;
+  background: rgba(17, 17, 17, 0.397);
+}
+.card-title {
+  color:white !important;
+  font-weight: bold !important;
+  transform: translateY(-50%) translateX(10%);
+}
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.NavItem a.active {
+    text-decoration: underline;
+}
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    z-index: 5;
+}
+
+.Toolbar {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.158);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 70px;
+  padding: .5rem;
+}
+
+.Toolbar a {
+  height: 30px !important;
+  transform: translateY(-10px);
+}
+.Toolbar i {
+  transform: translateY(-12px);
+}
+
+.card {
+  height: 600px;
+}
+.modal-close {
+  color:white;
+  font-weight: bold;
+  border: 1px solid white;
+}
+.Prompt {
+  background: rgba(0, 0, 0, 0.747);
+  position: fixed;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s ease-in-out;
+}
+.Prompt-container {
+  position: relative;
+  height: 90%;
+  width: 40%;
+  padding: 3rem;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: all .5s ease-in-out;
+  justify-content: space-between;
+}
+
+.Prompt-container button {
+  margin: 1rem;
+}
