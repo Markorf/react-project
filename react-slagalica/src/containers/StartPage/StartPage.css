@@ -1,0 +1,25 @@
+.startPage {
+  margin-top: -2.5rem;
+}
+
+input,
+select {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+.success {
+  background: green;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.6rem 2rem;
+  display: block;
+  margin: 1.5rem auto;
+  cursor: pointer;
+}
+.success:disabled {
+  background: grey;
+  cursor: not-allowed;
+  margin: 1.5rem auto;
+}

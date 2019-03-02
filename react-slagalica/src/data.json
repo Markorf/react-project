@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Pogodi grad",
+    "columns": [
+      "Nalazi se u Evropi",
+      "Nalazi se na Balkanu",
+      "Nalazi se u Srbiji",
+      "Nalazi se na obali dunava",
+      "Drugi najveci grad u Srbiji"
+    ],
+    "solution": "Novi Sad"
+  },
+  {
+    "id": 2,
+    "title": "Pogodi selo",
+    "columns": [
+      "Nalazi se u Evropi",
+      "Nalazi se na Balkanu",
+      "Nalazi se u Srbiji",
+      "Nalazi se na granici sa Rumunijom",
+      "Nalazi se pored kikinde"
+    ],
+    "solution": "Nakovo"
+  }
+]

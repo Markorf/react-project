@@ -1,0 +1,19 @@
+.gamePage {
+  margin-top: -2.5rem;
+}
+
+.success {
+  background: green;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.6rem 2rem;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+.success:disabled {
+  background: grey;
+  cursor: not-allowed;
+  margin: auto;
+}

@@ -1,0 +1,21 @@
+header {
+  background: lightblue;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: -1.4rem;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  list-style: none;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.active {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
